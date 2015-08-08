@@ -36,8 +36,8 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # git pull and install dotfiles as well
 cd $HOME
-if [ -d ./dotfiles/ ]; then
-    mv dotfiles dotfiles.old
+if [ -d ./mydotfiles/ ]; then
+    mv mydotfiles mydotfiles.old
 fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
